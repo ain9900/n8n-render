@@ -1,0 +1,8 @@
+FROM n8nio/n8n
+
+ENV N8N_HOST=0.0.0.0
+ENV N8N_PORT=10000
+ENV WEBHOOK_URL=https://your-app-name.onrender.com/
+ENV GENERIC_TIMEZONE=Asia/Dhaka
+
+EXPOSE 10000
